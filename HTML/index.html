@@ -1,17 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="test.css"> <!-- En Local -->
-    <link rel="stylesheet" href="../CSS/test.css"> <!-- En Ligne -->
-    <title>Document</title>
-</head>
-<body>
-    <h1>Test</h1>
-    <img src="./img20240224_14571859.jpg" alt="Test"> <!-- En ligne -->
-    <img src="../IMG/img20240224_14571859.jpg" alt="Test"> <!-- Local -->
-</body>
-<script src="../JS/test.js"></script> <!-- Local -->
-<script src="./test.js"></script> <!-- En Ligne -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="test.css"> <!-- En Local -->
+        <link rel="stylesheet" href="../CSS/test.css"> <!-- En Ligne -->
+        <title>Page d'acceuil</title>
+    </head>
+    <body>
+            <nav class="navbar" id="ma-navbar">
+                <span class="nav-button">
+                   <svg viewBox="0 0 100 80" width="40" height="40">
+                       <rect width="100" height="15"></rect>
+                       <rect y="35" width="100" height="15"></rect>
+                       <rect y="70" width="100" height="15"></rect>
+                   </svg>
+                </span>
+                <ul class="nav-menu">
+                    <li class="nav-drop">
+                        <a href="#">Histoire du Train</a>
+                        <ul class="dropdown">
+                            <li class="drop-item">
+                                <a href="#">La Première Locomotive</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">La Première Ligne Feroviaire de Voyageurs</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Le Train Pendant La Guerre</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Le Train Après la Guerre</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">L'électrification des Voies</a>
+                    </li>
+                    <li class="nav-drop">
+                        <a href="#">Les TGV</a>
+                        <ul class="dropdown">
+                            <li class="drop-item">
+                                <a href="#">TGV Sud-Est</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Le TGV Atlantique</a>
+                            </li>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Le TGV Duplex</a>
+                            </li>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Le TGV POS</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Le TGV Carmillon</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Le TGV M : TGV du Futur</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Le Shinkansen, le TGV Japonais</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Le TGV, Une Revolution Ferroviaire</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">La Creation du TGV</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Le TGV sous la Manche</a>
+                            </li>
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="nav-drop">
+                        <a href="#">Les Infrastructures Ferroviaire</a>
+                        <ul class="dropdown">
+                            <li class="drop-item">
+                                <a href="#">Les Signaux</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">L'infrastructure a grande Vitesse</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Les Voies</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Les Tunnels</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Les Viaducs et Les Ponts</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-drop">
+                        <a href="#">Les Differentes Types de Locomotives</a>
+                        <ul class="dropdown">
+                            <li class="drop-item">
+                                <a href="#">Les Locomotives à Vapeurs</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Les Locomotives Diesels</a>
+                            </li>
+                            <li class="drop-item">
+                                <a href="#">Les Locomotives Electriques</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Les Trains</h1>
+    </body>
+        <script src="../JS/test.js"></script> <!-- Local -->
+        <!-- <script src="./test.js"></script> En Ligne -->
 </html>

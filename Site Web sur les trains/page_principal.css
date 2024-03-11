@@ -1,0 +1,75 @@
+h1
+{font-size: 60px;
+color: yellow;
+text-align: center;
+/* min-width: 900px; */
+background-color: blue;
+HEIGHT:100px;
+top: 0px;
+/* left:0 px */
+z-index: 1; 
+}
+/* h2{
+	font: color rgb(255, 0, 0);
+} */
+.image1														/* TER */
+{position: absolute;left: 0px;top: 8px;z-index: 2; }
+.image2
+{position: absolute; left: 0px; top: 8px;z-index: 2; }		/* TER */
+.image3
+{position: absolute; left: 900px; top: 300px;z-index: 2; }
+
+
+.image6
+{position: absolute; left:300px; top: 300px;z-index: 3; }
+*/
+
+
+.dessous{
+	clear: both;
+}
+.image6, .legende_deux{
+	padding-left: 50%;
+}
+
+.dessous{
+	clear: both;
+}
+
+.image7, .legende_trois{
+	padding-left: 75%;
+}
+
+.dessous{
+	clear: both;
+}
+.image8,legende_quatre{
+	padding-left: 50%;
+}
+.dessous{
+	clear: both;
+}
+
+/* HEIGHT:700px;
+WIDTH:900px;
+font-size: 30px;
+color: blue;
+background-image:url("C:\Users\lemai\OneDrive\Documents\Formation developpeur web philiance (2022 2023)\image\TGV duplex.jpg");
+background-repeat: no-repeat;
+background-position : 0px 0px; } */
+
+/* section1{
+	background-color: red;
+} */
+body{
+	background-color: aqua;
+}
+h2{
+	color: red;
+}
+h3{
+	color: orange;
+}
+p{
+	color: red;
+}
